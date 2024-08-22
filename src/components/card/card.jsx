@@ -17,6 +17,12 @@ const StyledCard = styled.section`
   box-shadow: 0 0 24px 8px rgba(0, 0, 0, 0.2);
   z-index: 50;
   margin: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-size: .7rem;
+    min-height: 568px;
+    justify-content: space-around;
+  }
 `;
 
 const CardHead = styled.header`
